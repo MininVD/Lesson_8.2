@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT Book';
+    src: url('../fonts/FuturaPT-Book.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+	font-size: 14px;
+	line-height: 1;
+}
+/* -------------- */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0px auto;
+}
+
+.header {
+	font-family: Poppins;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 60px;
+	color: #182C51;
+}
+
+.image {	
+	float: left;
+	max-width: 640px;
+	margin: 54px 31px 300px 0px;
+}
+.info {
+	display: inline-block;
+	max-width: 430px;
+	padding: 30px 0px 0px 0px;
+}
+.text {
+  margin: 0px 0px 30px 0px;
+}
+.text p:first-child {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 21px;
+	color: #5A5A5A;
+	padding: 0px 0px 27px 0px;
+}
+.text p:nth-child(2) {
+	 font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 42px;
+	color: #00293F;
+	padding: 0px 0px 34px 0px;
+}
+.text p:last-child {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #5A5A5A;
+
+}
+
+.data {
+	display: inline-block;
+	margin: 0px 20px 0px 0px;
+	font-family: Poppins;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 19px;
+}
+.data a{
+	color: #5A5A5A;
+}
+.info a:hover {
+  color: #BB5A5A;
+}
+.data a:before {
+	content: "";
+	display: inline-block;
+	width: 15px;
+	height: 26px;
+	background: url("../img/data.png") 0 bottom no-repeat;
+	margin: 0px 5px 0px 0px;
+}
+.view {
+	display: inline-block;
+	margin: 0px 20px 0px 0px;
+	font-family: Poppins;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 19px;
+}
+.view a{
+	color: #5A5A5A;
+}
+.view a:before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 12px;
+  background: url("../img/view.png") 0 0 no-repeat;
+  margin: 0px 5px 0px 0px;
+}
+.coment {
+	display: inline-block;
+	font-family: Poppins;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 19px;
+}
+.coment a{
+	color: #5A5A5A;
+}
+.coment a:before {
+	content: "";
+	display: inline-block;
+	width: 15px;
+	height: 16px;
+	background: url("../img/coment.png") 50% 50% no-repeat;
+	margin: 0px 5px 0px 0px;
+}
